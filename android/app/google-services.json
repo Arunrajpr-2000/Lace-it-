@@ -1,0 +1,121 @@
+{
+  "project_info": {
+    "project_number": "262893416863",
+    "project_id": "shoea-ecomapp",
+    "storage_bucket": "shoea-ecomapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262893416863:android:3e61dc601938668eb44daa",
+        "android_client_info": {
+          "package_name": "com.arun.lace_it"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262893416863-21njmv2esk0thfagnbju73tk2ou28hfc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arun.lace_it",
+            "certificate_hash": "f9a5dd31b21b66f1ba02c94a68d232c510a5abdd"
+          }
+        },
+        {
+          "client_id": "262893416863-942r0keu92lhrbmr95uap00fk3k79o7t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arun.lace_it",
+            "certificate_hash": "eb9a9e6cfff0f548ed601c64e6b3d437e4793294"
+          }
+        },
+        {
+          "client_id": "262893416863-okq5fiut9k2avvfc43uerg1e5vnh4sfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWKey--TpCqOQnrEPR_G9heiVJyXHSWPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262893416863-okq5fiut9k2avvfc43uerg1e5vnh4sfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262893416863:android:be176bd6723d1433b44daa",
+        "android_client_info": {
+          "package_name": "com.brototype.shoea_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262893416863-icg02g0ueakbhid2e14tirdfb93efb7n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brototype.shoea_app",
+            "certificate_hash": "f9a5dd31b21b66f1ba02c94a68d232c510a5abdd"
+          }
+        },
+        {
+          "client_id": "262893416863-okq5fiut9k2avvfc43uerg1e5vnh4sfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWKey--TpCqOQnrEPR_G9heiVJyXHSWPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262893416863-okq5fiut9k2avvfc43uerg1e5vnh4sfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262893416863:android:9245cf86d7ad9524b44daa",
+        "android_client_info": {
+          "package_name": "com.example.shoea_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262893416863-okq5fiut9k2avvfc43uerg1e5vnh4sfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWKey--TpCqOQnrEPR_G9heiVJyXHSWPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262893416863-okq5fiut9k2avvfc43uerg1e5vnh4sfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
