@@ -17,8 +17,7 @@ class ListedItem extends StatelessWidget {
   Product product;
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      shrinkWrap: true,
+    return Column(
       children: [
         InkWell(
           onTap: () {

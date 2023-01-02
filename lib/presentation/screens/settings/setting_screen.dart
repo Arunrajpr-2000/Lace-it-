@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:lace_it/core/color/colors.dart';
 import 'package:lace_it/core/constants/constants.dart';
 import 'package:lace_it/presentation/widgets/list_tile_widget.dart';
+import 'package:share_plus/share_plus.dart';
 
 class SettingScreen extends StatelessWidget {
   const SettingScreen({Key? key}) : super(key: key);
@@ -47,8 +48,8 @@ class SettingScreen extends StatelessWidget {
               LeadIcon: Icons.telegram,
               Title: 'Invite Friends',
               Ontap: () {
-                // Share.share(
-                //     'hey! check out this new app \n https://play.google.com/store/apps/details?id=in.brototype.mixpod');
+                Share.share(
+                    'hey! check out this new E-commerce app❤️‍🔥  \n https://play.google.com/store/apps/details?id=com.brototype.shoea_app');
               },
               TrailingButton: const Icon(
                 Icons.arrow_forward_ios,
