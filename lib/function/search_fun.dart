@@ -3,14 +3,14 @@ import 'package:lace_it/model/product_model.dart';
 
 class SearchFuction {
   static Future<List<Product>> searchProduct(
-      {required String Search_text}) async {
+      {required String search_input}) async {
     final allProducts = await fetchAllProduct();
     List<Product> filteredList = [];
     for (Product temp in allProducts) {
       if (temp.name
           .toString()
           .toUpperCase()
-          .contains(Search_text.toUpperCase())) {
+          .contains(search_input.toUpperCase())) {
         filteredList.add(temp);
       }
     }
@@ -25,7 +25,7 @@ class SearchFuction {
         .snapshots()
         .map((snapshot) =>
             snapshot.docs.map((doc) => Product.fromJson(doc.data())).toList());
-    final temp = await searchproduct.first;
-    return temp;
+    final firstsearch = await searchproduct.first;
+    return firstsearch;
   }
 }

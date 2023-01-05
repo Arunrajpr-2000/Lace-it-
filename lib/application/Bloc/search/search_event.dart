@@ -4,6 +4,6 @@ part of 'search_bloc.dart';
 abstract class SearchEvent {}
 
 class Searchproduct extends SearchEvent {
-  Searchproduct({required this.search_text});
-  String search_text;
+  Searchproduct({required this.search_input});
+  String search_input;
 }

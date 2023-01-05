@@ -20,7 +20,7 @@ class ScreenSearch extends StatelessWidget {
         title: TextfieldContainer(
           Controller: searchController,
           onChanged: (value) {
-            context.read<SearchBloc>().add(Searchproduct(search_text: value));
+            context.read<SearchBloc>().add(Searchproduct(search_input: value));
           },
           TrailingIcon: IconButton(
             onPressed: searchController.clear,

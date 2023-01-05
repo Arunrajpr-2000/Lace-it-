@@ -12,9 +12,9 @@ class SearchBloc extends Bloc<SearchEvent, SearchState> {
       // TODO: implement event handler
     });
     on<Searchproduct>((event, emit) async {
-      List<Product> _temp =
-          await SearchFuction.searchProduct(Search_text: event.search_text);
-      emit(SearchState(productList: _temp));
+      List<Product> searchlist =
+          await SearchFuction.searchProduct(search_input: event.search_input);
+      emit(SearchState(productList: searchlist));
     });
   }
 }
